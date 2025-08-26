@@ -1,21 +1,18 @@
-package pe.edu.upeu.conceptos_poo.Herencia;
+package pe.edu.upeu.Herencia;
 
 public class Car extends Vehiculo{
-    String modelo="Hylux";
-    String color ="Blanco";
-
+    String color="Blancp";
+    String modelo="Hilux";
     void caracteristicas(){
         marca="Toyota";
-        System.out.println("La marca del vehiculo es: "+marca);
-        System.out.println("El modelo del vehiculo es: "+modelo);
-        System.out.println("El color del vehiculo es: "+color);
-        System.out.println("Y emite el sonido "+sonido());
+        System.out.println("La marca de este vehiculo es:"+marca);
+        System.out.println("Marca: "+marca);
+        System.out.println("Modelo: "+modelo);
+        Sonido();
+
     }
-
-
     public static void main(String[] args) {
-        Car carro =new Car();
-        carro.caracteristicas();
-
+        Car c =new Car();
+        c.caracteristicas();
     }
 }

@@ -1,8 +1,9 @@
-package pe.edu.upeu.conceptos_poo.Herencia;
+package pe.edu.upeu.Herencia;
 
 public class Vehiculo {
-    String marca="Ford";
-    String sonido(){
-        return"Tuuuut........Tuuuuut";
+    protected String marca="Ford";
+
+    public void Sonido() {
+        System.out.println("Tuuuuuuu");
     }
 }
